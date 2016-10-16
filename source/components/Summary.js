@@ -1,10 +1,10 @@
 import React from 'react';
 
-var Stuff = React.createClass({
+var Summary = React.createClass({
   render: function() {
       return (
         <div>
-          <h2>STUFF</h2>
+          <h2>SUMMARY</h2>
           <p>Mauris sem velit, vehicula eget sodales vitae,
           rhoncus eget sapien:</p>
           <ol>
@@ -19,4 +19,4 @@ var Stuff = React.createClass({
     }
 });
 
-module.exports = Stuff;
+module.exports = Summary;

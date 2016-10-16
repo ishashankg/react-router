@@ -4,9 +4,9 @@ var Contact = React.createClass({
   render: function() {
       return (
         <div>
-          <h2>GOT QUESTIONS?</h2>
-          <p>The easiest thing to do is post on
-          our <a href="http://forum.kirupa.com">forums</a>.
+          <h2>CONTACT</h2>
+          <p>For any queries, please send an email to :
+            <a href={"mailto: " + "shashank.gupta@talentica.com"}>Shashank</a>.
           </p>
         </div>
       );

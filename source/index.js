@@ -4,13 +4,13 @@ import { Router, Route, hashHistory, IndexRoute } from 'react-router';
 import App from './components/App';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import Stuff from './components/Stuff';
+import Summary from './components/Summary';
 
 render((
   <Router history={hashHistory}>
     <Route path="/" component={App}>
         <IndexRoute component={Home}/>
-        <Route path="stuff" component={Stuff} />
+        <Route path="summary" component={Summary} />
         <Route path="contact" component={Contact} />
     </Route>
   </Router>
