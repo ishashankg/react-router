@@ -1,7 +1,7 @@
 import React from 'react';
 
-var Home = React.createClass({
-    render : function(){
+export default class Home extends React.Component{
+    render(){
       return(
         <div>
           <h2>Introduction</h2>
@@ -17,6 +17,4 @@ var Home = React.createClass({
         </div>
       );
     }
-});
-
-module.exports = Home;
+};

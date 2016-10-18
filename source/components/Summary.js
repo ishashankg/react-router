@@ -1,7 +1,7 @@
 import React from 'react';
 
-var Summary = React.createClass({
-  render: function() {
+export default class Summary extends React.Component{
+  render() {
       return (
         <div>
           <h2>SUMMARY</h2>
@@ -17,6 +17,4 @@ var Summary = React.createClass({
         </div>
       );
     }
-});
-
-module.exports = Summary;
+};

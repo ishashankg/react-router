@@ -1,7 +1,7 @@
 import React from 'react';
 
-var Contact = React.createClass({
-  render: function() {
+export default class Contact extends React.Component{
+  render() {
       return (
         <div>
           <h2>CONTACT</h2>
@@ -11,6 +11,4 @@ var Contact = React.createClass({
         </div>
       );
     }
-});
-
-module.exports = Contact;
+};
